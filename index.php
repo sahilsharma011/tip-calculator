@@ -126,9 +126,9 @@ if (isset($_POST['submitted'])) {
                 <?php
                 if (isset($result) && isset($tip)) {
                     echo '<div style="background-color: rgba(0, 0, 0, 0.10);padding: 1%">'
-                        . 'Total : ' . $result
+                        . 'Total Cost is $ ' . $result
                         . '<br>'
-                        . 'Tip : ' . $tip
+                        . 'Total Tip is $ ' . $tip
                         . '</div>';
                 }
                 ?>
